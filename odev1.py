@@ -57,9 +57,7 @@ def printSpiral(size):
             print(n, end='  ' if n < 10 else ' ')
         print()
  
-# Driver Code
-#size = 5
- 
+# Bu satırlar eklenmiştir 
 # Print the Spiral Pattern
 size = int(input("enter size:"))
 printSpiral(size)
